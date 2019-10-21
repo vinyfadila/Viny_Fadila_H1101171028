@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vinyfadila_h1101171028">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="vinyfadila_h1101171028"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity"></activity>
+        <activity android:name=".service"></activity>
+        <activity android:name=".br"></activity>
+        <activity android:name=".cp"></activity>
+        <activity android:name=".intent"></activity>
+        <activity android:name=".synaktivitas"></activity>
+        <activity android:name=".synservis"></activity>
+        <activity android:name=".synbroadcast"></activity>
+        <activity android:name=".synkonten"></activity>
+        <activity android:name=".synintent"></activity>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

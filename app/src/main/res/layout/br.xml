@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#614CAF50"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/broadcast_receiver"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desk"
+        android:layout_width="389dp"
+        android:layout_height="488dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="86dp"
+        android:text="@string/desk3"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/link2"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="69dp"
+        android:background="#A90E6F3B"
+        android:fontFamily="@font/acme"
+        android:onClick="Linkservice"
+        android:text="@string/link_materi"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/synbroadcast"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="69dp"
+        android:background="#A90E6F3B"
+        android:fontFamily="@font/acme"
+        android:onClick="synbrodcast"
+        android:text="@string/syntax"
+        android:textColor="#000000" />
+
+</RelativeLayout>

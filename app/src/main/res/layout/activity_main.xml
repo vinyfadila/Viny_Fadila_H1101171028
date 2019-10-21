@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#614CAF50"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/acme"
+        android:text="@string/komponen_android"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/activity"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="222dp"
+        android:background="#A90E6F3B"
+        android:fontFamily="@font/acme"
+        android:onClick="activity"
+        android:text="@string/activity"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/service"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="29dp"
+        android:background="#A90E6F3B"
+        android:fontFamily="@font/acme"
+        android:onClick="service"
+        android:text="@string/service"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/content"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="341dp"
+        android:background="#A90E6F3B"
+        android:fontFamily="@font/acme"
+        android:onClick="content"
+        android:text="@string/content_provider"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/broadcast"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="341dp"
+        android:background="#A90E6F3B"
+        android:fontFamily="@font/acme"
+        android:onClick="broadcast"
+        android:text="@string/broadcast_receiver"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/intent"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="461dp"
+        android:background="#A90E6F3B"
+        android:fontFamily="@font/acme"
+        android:onClick="intent"
+        android:text="@string/intent"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
